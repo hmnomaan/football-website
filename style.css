@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-/* html {
-    scroll-behavior: smooth;
-} */
-
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -134,18 +130,13 @@ a {
 }
 
 .top-banner:hover img {
-    transform: scale(1.25);
-    /* transition: ease-out; */
+    transform: scale(1.25) skew(-5deg);
+    transition: transform 1.5s ease-in-out;
 }
-
-/* .top-banner {
-    transition: width 10s;
-} */
 
 .watch-btn {
     color: #FFFFFF;
     background: #E02C6D;
-    /* border: 2px solid #E02C6D; */
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -439,7 +430,7 @@ footer p {
 Media Queries Start here
 ---------------------  */
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices -Mobile */
 
 @media only screen and (max-width: 600px) {
     #top-section {
@@ -541,7 +532,7 @@ Media Queries Start here
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices - tablets */
 
 @media only screen and (max-width: 768px) {
     .login {
@@ -607,7 +598,7 @@ Media Queries Start here
     }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+/* Large devices- laptops/desktops */
 
 @media only screen and (max-width: 992px) {
     .highlight-match {
@@ -629,4 +620,4 @@ Media Queries Start here
     }
 }
 
-/* Responsive Style ends here  */
+/* Media Queries end here  */
