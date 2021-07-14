@@ -534,7 +534,7 @@ Media Queries Start here
 
 /* Medium devices - tablets */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width:600) and (max-width: 768px) {
     .login {
         font-size: 13px;
         line-height: 20px;
@@ -552,7 +552,7 @@ Media Queries Start here
     }
     .inner-highlights {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .header {
         padding: 10px 0;
