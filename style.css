@@ -138,9 +138,9 @@ a {
     /* transition: ease-out; */
 }
 
-.top-banner {
-    transition: width 2s linear 1s;
-}
+/* .top-banner {
+    transition: width 10s;
+} */
 
 .watch-btn {
     color: #FFFFFF;
